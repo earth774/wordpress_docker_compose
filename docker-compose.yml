@@ -14,7 +14,7 @@ services:
       WORDPRESS_TABLE_PREFIX: dx36fd_
     volumes:
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
-      - wp-content:/var/www/html/wp-content
+      - ./wp-content:/var/www/html/wp-content
     ports:
       - 1003:80
     networks:
