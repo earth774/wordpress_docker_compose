@@ -15,7 +15,7 @@ services:
     volumes:
       - ./uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
     ports:
-      - 1001:80
+      - 1003:80
     networks:
       - wptest_network
   db:
